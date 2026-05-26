@@ -4,7 +4,7 @@
         "alert_emails": "dataos-p2-retargetting-itt@external.groups.hp.com",
         "stack": "dev",
         "job_name": "cascade_stg_pc_details_software_prod",
-        "CASCADE_STG_PC_DETAILS_SOFTWARE_PROD_JOB_KEY": "586453114505396",
+        "CASCADE_STG_PC_DETAILS_SOFTWARE_PROD_JOB_KEY": "58645311450539",
         "env": "dev",
         "run_job": "False"
     },
