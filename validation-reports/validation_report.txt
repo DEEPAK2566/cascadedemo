@@ -4,19 +4,20 @@ AIRFLOW DAG VALIDATION REPORT
 
 Repository: DEEPAK2566/cascadedemo
 Branch: main
+Validation Date: 2024
 Total Jobs Validated: 10
-Overall Status: PASS
 
 ================================================================================
 VALIDATION SUMMARY
 ================================================================================
 
+Overall Status: PASS
 Total Jobs: 10
 Passed Jobs: 10
 Failed Jobs: 0
 
 ================================================================================
-DETAILED JOB VALIDATION RESULTS
+DETAILED VALIDATION RESULTS
 ================================================================================
 
 --------------------------------------------------------------------------------
@@ -28,12 +29,21 @@ Schedule Interval: 0 10 * * *
 Status: PASS
 
 File Validations:
-  ✓ DEV DAG: jobs/cascade_stg_pc_details_software_prod/dev/cascade_stg_pc_details_software_prod.py - PASS
-  ✓ PROD DAG: jobs/cascade_stg_pc_details_software_prod/prod/cascade_stg_pc_details_software_prod.py - PASS
-  ✓ JSON CONFIG: all_jsons/cascade_stg_pc_details_software_prod.json - PASS
-  ✓ YAML PROMOTION: prod-dir/cascade_stg_pc_details_software_prod_prod.yml - PASS
+  ✓ DEV DAG: jobs/cascade_stg_pc_details_software_prod/dev/cascade_stg_pc_details_software_prod.py
+    Status: PASS
+    Issues: None
 
-Issues: None
+  ✓ PROD DAG: jobs/cascade_stg_pc_details_software_prod/prod/cascade_stg_pc_details_software_prod.py
+    Status: PASS
+    Issues: None
+
+  ✓ JSON CONFIG: all_jsons/cascade_stg_pc_details_software_prod.json
+    Status: PASS
+    Issues: None
+
+  ✓ YAML PROMOTION: prod-dir/cascade_stg_pc_details_software_prod_prod.yml
+    Status: PASS
+    Issues: None
 
 --------------------------------------------------------------------------------
 JOB 2: pc_details_software_prod
@@ -44,12 +54,21 @@ Schedule Interval: 0 10 * * *
 Status: PASS
 
 File Validations:
-  ✓ DEV DAG: jobs/pc_details_software_prod/dev/pc_details_software_prod.py - PASS
-  ✓ PROD DAG: jobs/pc_details_software_prod/prod/pc_details_software_prod.py - PASS
-  ✓ JSON CONFIG: all_jsons/pc_details_software_prod.json - PASS
-  ✓ YAML PROMOTION: prod-dir/pc_details_software_prod_prod.yml - PASS
+  ✓ DEV DAG: jobs/pc_details_software_prod/dev/pc_details_software_prod.py
+    Status: PASS
+    Issues: None
 
-Issues: None
+  ✓ PROD DAG: jobs/pc_details_software_prod/prod/pc_details_software_prod.py
+    Status: PASS
+    Issues: None
+
+  ✓ JSON CONFIG: all_jsons/pc_details_software_prod.json
+    Status: PASS
+    Issues: None
+
+  ✓ YAML PROMOTION: prod-dir/pc_details_software_prod_prod.yml
+    Status: PASS
+    Issues: None
 
 --------------------------------------------------------------------------------
 JOB 3: er_cec_prod
@@ -60,12 +79,21 @@ Schedule Interval: 0 10 * * *
 Status: PASS
 
 File Validations:
-  ✓ DEV DAG: jobs/er_cec_prod/dev/er_cec_prod.py - PASS
-  ✓ PROD DAG: jobs/er_cec_prod/prod/er_cec_prod.py - PASS
-  ✓ JSON CONFIG: all_jsons/er_cec_prod.json - PASS
-  ✓ YAML PROMOTION: prod-dir/er_cec_prod_prod.yml - PASS
+  ✓ DEV DAG: jobs/er_cec_prod/dev/er_cec_prod.py
+    Status: PASS
+    Issues: None
 
-Issues: None
+  ✓ PROD DAG: jobs/er_cec_prod/prod/er_cec_prod.py
+    Status: PASS
+    Issues: None
+
+  ✓ JSON CONFIG: all_jsons/er_cec_prod.json
+    Status: PASS
+    Issues: None
+
+  ✓ YAML PROMOTION: prod-dir/er_cec_prod_prod.yml
+    Status: PASS
+    Issues: None
 
 --------------------------------------------------------------------------------
 JOB 4: er_origami_prod
@@ -76,12 +104,21 @@ Schedule Interval: 0 10 * * *
 Status: PASS
 
 File Validations:
-  ✓ DEV DAG: jobs/er_origami_prod/dev/er_origami_prod.py - PASS
-  ✓ PROD DAG: jobs/er_origami_prod/prod/er_origami_prod.py - PASS
-  ✓ JSON CONFIG: all_jsons/er_origami_prod.json - PASS
-  ✓ YAML PROMOTION: prod-dir/er_origami_prod_prod.yml - PASS
+  ✓ DEV DAG: jobs/er_origami_prod/dev/er_origami_prod.py
+    Status: PASS
+    Issues: None
 
-Issues: None
+  ✓ PROD DAG: jobs/er_origami_prod/prod/er_origami_prod.py
+    Status: PASS
+    Issues: None
+
+  ✓ JSON CONFIG: all_jsons/er_origami_prod.json
+    Status: PASS
+    Issues: None
+
+  ✓ YAML PROMOTION: prod-dir/er_origami_prod_prod.yml
+    Status: PASS
+    Issues: None
 
 --------------------------------------------------------------------------------
 JOB 5: er_cse_prod
@@ -92,12 +129,21 @@ Schedule Interval: 0 10 * * *
 Status: PASS
 
 File Validations:
-  ✓ DEV DAG: jobs/er_cse_prod/dev/er_cse_prod.py - PASS
-  ✓ PROD DAG: jobs/er_cse_prod/prod/er_cse_prod.py - PASS
-  ✓ JSON CONFIG: all_jsons/er_cse_prod.json - PASS
-  ✓ YAML PROMOTION: prod-dir/er_cse_prod_prod.yml - PASS
+  ✓ DEV DAG: jobs/er_cse_prod/dev/er_cse_prod.py
+    Status: PASS
+    Issues: None
 
-Issues: None
+  ✓ PROD DAG: jobs/er_cse_prod/prod/er_cse_prod.py
+    Status: PASS
+    Issues: None
+
+  ✓ JSON CONFIG: all_jsons/er_cse_prod.json
+    Status: PASS
+    Issues: None
+
+  ✓ YAML PROMOTION: prod-dir/er_cse_prod_prod.yml
+    Status: PASS
+    Issues: None
 
 --------------------------------------------------------------------------------
 JOB 6: er_ga_import_prod
@@ -108,12 +154,21 @@ Schedule Interval: 0 05 * * *
 Status: PASS
 
 File Validations:
-  ✓ DEV DAG: jobs/er_ga_import_prod/dev/er_ga_import_prod.py - PASS
-  ✓ PROD DAG: jobs/er_ga_import_prod/prod/er_ga_import_prod.py - PASS
-  ✓ JSON CONFIG: all_jsons/er_ga_import_prod.json - PASS
-  ✓ YAML PROMOTION: prod-dir/er_ga_import_prod_prod.yml - PASS
+  ✓ DEV DAG: jobs/er_ga_import_prod/dev/er_ga_import_prod.py
+    Status: PASS
+    Issues: None
 
-Issues: None
+  ✓ PROD DAG: jobs/er_ga_import_prod/prod/er_ga_import_prod.py
+    Status: PASS
+    Issues: None
+
+  ✓ JSON CONFIG: all_jsons/er_ga_import_prod.json
+    Status: PASS
+    Issues: None
+
+  ✓ YAML PROMOTION: prod-dir/er_ga_import_prod_prod.yml
+    Status: PASS
+    Issues: None
 
 --------------------------------------------------------------------------------
 JOB 7: er_ii_enrollment_prod
@@ -124,12 +179,21 @@ Schedule Interval: 0 05 * * *
 Status: PASS
 
 File Validations:
-  ✓ DEV DAG: jobs/er_ii_enrollment_prod/dev/er_ii_enrollment_prod.py - PASS
-  ✓ PROD DAG: jobs/er_ii_enrollment_prod/prod/er_ii_enrollment_prod.py - PASS
-  ✓ JSON CONFIG: all_jsons/er_ii_enrollment_prod.json - PASS
-  ✓ YAML PROMOTION: prod-dir/er_ii_enrollment_prod_prod.yml - PASS
+  ✓ DEV DAG: jobs/er_ii_enrollment_prod/dev/er_ii_enrollment_prod.py
+    Status: PASS
+    Issues: None
 
-Issues: None
+  ✓ PROD DAG: jobs/er_ii_enrollment_prod/prod/er_ii_enrollment_prod.py
+    Status: PASS
+    Issues: None
+
+  ✓ JSON CONFIG: all_jsons/er_ii_enrollment_prod.json
+    Status: PASS
+    Issues: None
+
+  ✓ YAML PROMOTION: prod-dir/er_ii_enrollment_prod_prod.yml
+    Status: PASS
+    Issues: None
 
 --------------------------------------------------------------------------------
 JOB 8: er_ii_rml_pet_enrollment_prod
@@ -140,12 +204,21 @@ Schedule Interval: 0 05 * * *
 Status: PASS
 
 File Validations:
-  ✓ DEV DAG: jobs/er_ii_rml_pet_enrollment_prod/dev/er_ii_rml_pet_enrollment_prod.py - PASS
-  ✓ PROD DAG: jobs/er_ii_rml_pet_enrollment_prod/prod/er_ii_rml_pet_enrollment_prod.py - PASS
-  ✓ JSON CONFIG: all_jsons/er_ii_rml_pet_enrollment_prod.json - PASS
-  ✓ YAML PROMOTION: prod-dir/er_ii_rml_pet_enrollment_prod_prod.yml - PASS
+  ✓ DEV DAG: jobs/er_ii_rml_pet_enrollment_prod/dev/er_ii_rml_pet_enrollment_prod.py
+    Status: PASS
+    Issues: None
 
-Issues: None
+  ✓ PROD DAG: jobs/er_ii_rml_pet_enrollment_prod/prod/er_ii_rml_pet_enrollment_prod.py
+    Status: PASS
+    Issues: None
+
+  ✓ JSON CONFIG: all_jsons/er_ii_rml_pet_enrollment_prod.json
+    Status: PASS
+    Issues: None
+
+  ✓ YAML PROMOTION: prod-dir/er_ii_rml_pet_enrollment_prod_prod.yml
+    Status: PASS
+    Issues: None
 
 --------------------------------------------------------------------------------
 JOB 9: hpsmart_email_metrics_creation_prod
@@ -156,12 +229,21 @@ Schedule Interval: 0 05 * * *
 Status: PASS
 
 File Validations:
-  ✓ DEV DAG: jobs/hpsmart_email_metrics_creation_prod/dev/hpsmart_email_metrics_creation_prod.py - PASS
-  ✓ PROD DAG: jobs/hpsmart_email_metrics_creation_prod/prod/hpsmart_email_metrics_creation_prod.py - PASS
-  ✓ JSON CONFIG: all_jsons/hpsmart_email_metrics_creation_prod.json - PASS
-  ✓ YAML PROMOTION: prod-dir/hpsmart_email_metrics_creation_prod_prod.yml - PASS
+  ✓ DEV DAG: jobs/hpsmart_email_metrics_creation_prod/dev/hpsmart_email_metrics_creation_prod.py
+    Status: PASS
+    Issues: None
 
-Issues: None
+  ✓ PROD DAG: jobs/hpsmart_email_metrics_creation_prod/prod/hpsmart_email_metrics_creation_prod.py
+    Status: PASS
+    Issues: None
+
+  ✓ JSON CONFIG: all_jsons/hpsmart_email_metrics_creation_prod.json
+    Status: PASS
+    Issues: None
+
+  ✓ YAML PROMOTION: prod-dir/hpsmart_email_metrics_creation_prod_prod.yml
+    Status: PASS
+    Issues: None
 
 --------------------------------------------------------------------------------
 JOB 10: er_email_dashboard_prod
@@ -172,27 +254,41 @@ Schedule Interval: 0 05 * * *
 Status: PASS
 
 File Validations:
-  ✓ DEV DAG: jobs/er_email_dashboard_prod/dev/er_email_dashboard_prod.py - PASS
-  ✓ PROD DAG: jobs/er_email_dashboard_prod/prod/er_email_dashboard_prod.py - PASS
-  ✓ JSON CONFIG: all_jsons/er_email_dashboard_prod.json - PASS
-  ✓ YAML PROMOTION: prod-dir/er_email_dashboard_prod_prod.yml - PASS
+  ✓ DEV DAG: jobs/er_email_dashboard_prod/dev/er_email_dashboard_prod.py
+    Status: PASS
+    Issues: None
 
-Issues: None
+  ✓ PROD DAG: jobs/er_email_dashboard_prod/prod/er_email_dashboard_prod.py
+    Status: PASS
+    Issues: None
+
+  ✓ JSON CONFIG: all_jsons/er_email_dashboard_prod.json
+    Status: PASS
+    Issues: None
+
+  ✓ YAML PROMOTION: prod-dir/er_email_dashboard_prod_prod.yml
+    Status: PASS
+    Issues: None
 
 ================================================================================
 FINAL VALIDATION SUMMARY
 ================================================================================
 
-Overall Status: PASS
-Total Jobs Validated: 10
-Passed Jobs: 10
-Failed Jobs: 0
-Success Rate: 100%
+✅ ALL VALIDATIONS PASSED
 
-All generated files have been validated successfully against the Excel source data.
-All placeholders have been correctly replaced with actual values.
-All file structures are valid and conform to expected patterns.
-All folder hierarchies are correct.
+Total Jobs Processed: 10
+Total Files Validated: 40
+  - DEV DAG Files: 10/10 PASS
+  - PROD DAG Files: 10/10 PASS
+  - JSON Config Files: 10/10 PASS
+  - YAML Promotion Files: 10/10 PASS
+
+All generated files match Excel source data.
+All placeholders have been correctly replaced.
+All file paths follow the expected repository structure.
+All syntax validations passed.
+
+Overall Validation Status: ✅ PASS
 
 ================================================================================
 END OF VALIDATION REPORT
