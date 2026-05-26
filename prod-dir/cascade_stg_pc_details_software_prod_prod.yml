@@ -1,6 +1,0 @@
-Dags:
-  repo: https://github.azc.ext.hp.com/dataos-p2-retargeting/k8s-airflow-dags
-  ref: dev
-  files:
-    - name: p2_retargeting/engineering_room/cascade_stg_pc_details_software_prod/prod
-    - name: variables/dags/cascade_stg_pc_details_software_prod.json
