@@ -1,0 +1,23 @@
+{
+    "name": "er_cec_prod",
+    "dev": {
+        "alert_emails": "dataos-p2-retargetting-itt@external.groups.hp.com",
+        "stack": "dev",
+        "job_name": "er_cec_prod",
+        "ER_CEC_PROD_JOB_KEY": "625293020756560",
+        "env": "dev",
+        "run_job": "False"
+    },
+    "prod": {
+        "alert_emails": "dataos-p2-retargetting-itt@external.groups.hp.com",
+        "stack": "prod",
+        "job_name": "er_cec_prod",
+        "ER_CEC_PROD_JOB_KEY": "625293020756560",
+        "schedule_interval": "0 10 * * *",
+        "env": "prod",
+        "run_job": "True",
+        // "er_paas_email_mapping_destination": "team_cascade_prod.engineering_room.paas_email_mapping",
+        // "er_pcaas_email_mapping_destination": "team_cascade_prod.engineering_room.pcaas_email_mapping",
+        // "secret_name": "prod/team-cascade/paas-email-mapping-key"
+    }
+}
