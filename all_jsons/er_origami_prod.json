@@ -1,0 +1,23 @@
+{
+    "name": "er_origami_prod",
+    "dev": {
+        "alert_emails": "dataos-p2-retargetting-itt@external.groups.hp.com",
+        "stack": "dev",
+        "job_name": "er_origami_prod",
+        "ER_ORIGAMI_PROD_JOB_KEY": "788812733488611",
+        "env": "dev",
+        "run_job": "False"
+    },
+    "prod": {
+        "alert_emails": "dataos-p2-retargetting-itt@external.groups.hp.com",
+        "stack": "prod",
+        "job_name": "er_origami_prod",
+        "ER_ORIGAMI_PROD_JOB_KEY": "788812733488611",
+        "schedule_interval": "0 10 * * *",
+        "env": "prod",
+        "run_job": "True",
+        // "er_paas_email_mapping_destination": "team_cascade_prod.engineering_room.paas_email_mapping",
+        // "er_pcaas_email_mapping_destination": "team_cascade_prod.engineering_room.pcaas_email_mapping",
+        // "secret_name": "prod/team-cascade/paas-email-mapping-key"
+    }
+}
