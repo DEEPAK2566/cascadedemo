@@ -1,0 +1,23 @@
+{
+    "name": "er_ii_enrollment_prod",
+    "dev": {
+        "alert_emails": "dataos-p2-retargetting-itt@external.groups.hp.com",
+        "stack": "dev",
+        "job_name": "er_ii_enrollment_prod",
+        "ER_II_ENROLLMENT_PROD_JOB_KEY": "742507288796768",
+        "env": "dev",
+        "run_job": "False"
+    },
+    "prod": {
+        "alert_emails": "dataos-p2-retargetting-itt@external.groups.hp.com",
+        "stack": "prod",
+        "job_name": "er_ii_enrollment_prod",
+        "ER_II_ENROLLMENT_PROD_JOB_KEY": "742507288796768",
+        "schedule_interval": "0 05 * * *",
+        "env": "prod",
+        "run_job": "True",
+        // "er_paas_email_mapping_destination": "team_cascade_prod.engineering_room.paas_email_mapping",
+        // "er_pcaas_email_mapping_destination": "team_cascade_prod.engineering_room.pcaas_email_mapping",
+        // "secret_name": "prod/team-cascade/paas-email-mapping-key"
+    }
+}
